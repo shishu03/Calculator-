@@ -3,7 +3,7 @@ CXXFLAGS = -std=c++17 -Iinclude -Wall -Wextra -O2
 
 SRC = $(wildcard src/*.cpp)
 OBJ = $(SRC:.cpp=.o)
-TARGET = calc_app
+TARGET = tool
 
 all: $(TARGET)
 
